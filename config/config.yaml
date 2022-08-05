@@ -1,0 +1,8 @@
+# Конфиги для rabbitmq
+RABBITMQ:
+    host: 'localhost'
+    port: 15672
+    password: 'guest'
+    username: 'guest'
+    active: True
+    reconnect_time: 20

@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+    epilepser:
+        image: epilepsy
+        container_name: epilepsy
+
+    rabbitmq:
+        container_name: rabbitmq
+        image: rabbitmq
+
+        ports:
+            - '15672:15672'
