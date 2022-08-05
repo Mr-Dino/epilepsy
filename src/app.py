@@ -131,7 +131,7 @@ def show_video(path):
 
 
 def generate_img_name(filename):
-    """Функция создания рандомного видео"""
+    """Функция создания рандомного имени изображения"""
     new_name = ""
     for letter in filename:
         choice = random.choice([True, False])
